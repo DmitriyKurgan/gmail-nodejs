@@ -2,9 +2,9 @@
   "version": 2,
   "name": "gmail-nodejs",
   "builds": [
-    { "src": "src/index.js", "use": "@vercel/node" }
+    { "src": "index.ts", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "src/index.js" }
+    { "src": "/(.*)", "dest": "index.ts" }
   ]
 }
